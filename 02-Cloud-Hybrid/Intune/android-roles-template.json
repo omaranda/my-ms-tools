@@ -1,0 +1,257 @@
+{
+  "Executive": {
+    "GroupName": "Android-Executive-Users",
+    "Description": "C-Level and Directors with executive app access",
+    "RequiredApps": [
+      {
+        "Name": "Microsoft Teams",
+        "PackageId": "com.microsoft.teams",
+        "ConfigPolicy": true
+      },
+      {
+        "Name": "Microsoft Outlook",
+        "PackageId": "com.microsoft.office.outlook",
+        "ConfigPolicy": true
+      },
+      {
+        "Name": "WhatsApp Business",
+        "PackageId": "com.whatsapp.w4b",
+        "ConfigPolicy": false
+      },
+      {
+        "Name": "Microsoft Word",
+        "PackageId": "com.microsoft.office.word",
+        "ConfigPolicy": false
+      },
+      {
+        "Name": "Microsoft Excel",
+        "PackageId": "com.microsoft.office.excel",
+        "ConfigPolicy": false
+      },
+      {
+        "Name": "Microsoft PowerPoint",
+        "PackageId": "com.microsoft.office.powerpoint",
+        "ConfigPolicy": false
+      },
+      {
+        "Name": "Microsoft OneDrive",
+        "PackageId": "com.microsoft.skydrive",
+        "ConfigPolicy": true
+      },
+      {
+        "Name": "Power BI",
+        "PackageId": "com.microsoft.powerbim",
+        "ConfigPolicy": false
+      }
+    ],
+    "AvailableApps": [
+      {
+        "Name": "Microsoft SharePoint",
+        "PackageId": "com.microsoft.sharepoint"
+      },
+      {
+        "Name": "LinkedIn",
+        "PackageId": "com.linkedin.android"
+      }
+    ],
+    "BlockedApps": []
+  },
+  "FieldTeam": {
+    "GroupName": "Android-Field-Team",
+    "Description": "Field workers with specialized apps",
+    "RequiredApps": [
+      {
+        "Name": "Microsoft Teams",
+        "PackageId": "com.microsoft.teams",
+        "ConfigPolicy": true
+      },
+      {
+        "Name": "Microsoft Outlook",
+        "PackageId": "com.microsoft.office.outlook",
+        "ConfigPolicy": true
+      },
+      {
+        "Name": "AudioMoth",
+        "PackageId": "org.openacousticdevices.audiomoth",
+        "ConfigPolicy": true
+      },
+      {
+        "Name": "Field Service Mobile",
+        "PackageId": "com.microsoft.dynamics.fieldservice",
+        "ConfigPolicy": true
+      },
+      {
+        "Name": "Microsoft OneDrive",
+        "PackageId": "com.microsoft.skydrive",
+        "ConfigPolicy": false
+      }
+    ],
+    "AvailableApps": [
+      {
+        "Name": "Microsoft Word",
+        "PackageId": "com.microsoft.office.word"
+      },
+      {
+        "Name": "Microsoft Excel",
+        "PackageId": "com.microsoft.office.excel"
+      },
+      {
+        "Name": "Adobe Acrobat Reader",
+        "PackageId": "com.adobe.reader"
+      }
+    ],
+    "BlockedApps": [
+      {
+        "Name": "WhatsApp",
+        "PackageId": "com.whatsapp"
+      },
+      {
+        "Name": "Facebook",
+        "PackageId": "com.facebook.katana"
+      }
+    ]
+  },
+  "Sales": {
+    "GroupName": "Android-Sales-Team",
+    "Description": "Sales team with CRM and productivity apps",
+    "RequiredApps": [
+      {
+        "Name": "Microsoft Teams",
+        "PackageId": "com.microsoft.teams",
+        "ConfigPolicy": true
+      },
+      {
+        "Name": "Microsoft Outlook",
+        "PackageId": "com.microsoft.office.outlook",
+        "ConfigPolicy": true
+      },
+      {
+        "Name": "Dynamics 365 Sales",
+        "PackageId": "com.microsoft.dynamics.crm.phone",
+        "ConfigPolicy": true
+      },
+      {
+        "Name": "LinkedIn Sales Navigator",
+        "PackageId": "com.linkedin.android.salesnavigator",
+        "ConfigPolicy": false
+      },
+      {
+        "Name": "Microsoft OneDrive",
+        "PackageId": "com.microsoft.skydrive",
+        "ConfigPolicy": false
+      }
+    ],
+    "AvailableApps": [
+      {
+        "Name": "Microsoft Word",
+        "PackageId": "com.microsoft.office.word"
+      },
+      {
+        "Name": "Microsoft Excel",
+        "PackageId": "com.microsoft.office.excel"
+      },
+      {
+        "Name": "Microsoft PowerPoint",
+        "PackageId": "com.microsoft.office.powerpoint"
+      }
+    ],
+    "BlockedApps": []
+  },
+  "IT": {
+    "GroupName": "Android-IT-Team",
+    "Description": "IT staff with administrative tools",
+    "RequiredApps": [
+      {
+        "Name": "Microsoft Teams",
+        "PackageId": "com.microsoft.teams",
+        "ConfigPolicy": true
+      },
+      {
+        "Name": "Microsoft Outlook",
+        "PackageId": "com.microsoft.office.outlook",
+        "ConfigPolicy": true
+      },
+      {
+        "Name": "Microsoft Intune Company Portal",
+        "PackageId": "com.microsoft.windowsintune.companyportal",
+        "ConfigPolicy": false
+      },
+      {
+        "Name": "Microsoft Remote Desktop",
+        "PackageId": "com.microsoft.rdc.androidx",
+        "ConfigPolicy": true
+      },
+      {
+        "Name": "Microsoft Authenticator",
+        "PackageId": "com.azure.authenticator",
+        "ConfigPolicy": false
+      },
+      {
+        "Name": "Microsoft OneDrive",
+        "PackageId": "com.microsoft.skydrive",
+        "ConfigPolicy": false
+      }
+    ],
+    "AvailableApps": [
+      {
+        "Name": "Microsoft Word",
+        "PackageId": "com.microsoft.office.word"
+      },
+      {
+        "Name": "Microsoft Excel",
+        "PackageId": "com.microsoft.office.excel"
+      },
+      {
+        "Name": "Azure Mobile App",
+        "PackageId": "com.microsoft.azure"
+      }
+    ],
+    "BlockedApps": []
+  },
+  "General": {
+    "GroupName": "Android-General-Staff",
+    "Description": "General staff with standard M365 apps",
+    "RequiredApps": [
+      {
+        "Name": "Microsoft Teams",
+        "PackageId": "com.microsoft.teams",
+        "ConfigPolicy": true
+      },
+      {
+        "Name": "Microsoft Outlook",
+        "PackageId": "com.microsoft.office.outlook",
+        "ConfigPolicy": true
+      },
+      {
+        "Name": "Microsoft Word",
+        "PackageId": "com.microsoft.office.word",
+        "ConfigPolicy": false
+      },
+      {
+        "Name": "Microsoft Excel",
+        "PackageId": "com.microsoft.office.excel",
+        "ConfigPolicy": false
+      },
+      {
+        "Name": "Microsoft OneDrive",
+        "PackageId": "com.microsoft.skydrive",
+        "ConfigPolicy": false
+      }
+    ],
+    "AvailableApps": [
+      {
+        "Name": "Microsoft PowerPoint",
+        "PackageId": "com.microsoft.office.powerpoint"
+      },
+      {
+        "Name": "Microsoft SharePoint",
+        "PackageId": "com.microsoft.sharepoint"
+      },
+      {
+        "Name": "Adobe Acrobat Reader",
+        "PackageId": "com.adobe.reader"
+      }
+    ],
+    "BlockedApps": []
+  }
+}
